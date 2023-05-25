@@ -10,5 +10,15 @@ let spaceship = {
   'Fuel Type' : 'Turbo Fuel',
   homePlanet : 'Earth'
 };
+function greenEnergy(obj){
+  obj['Health'] = 'avocado oil'
+  }
 
 // Write your code below
+function remotelyDisable(obj){
+  obj.disable=true;
+
+}
+greenEnergy(spaceship);
+remotelyDisable(spaceship);
+console.log(spaceship);
